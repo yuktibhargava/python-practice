@@ -1,0 +1,18 @@
+first_name = 'John'
+last_name = 'Doe'
+full_name = first_name + ' ' + last_name
+address = '123 Main St'
+address += ', Anytown, USA'
+employee_age = 30
+employee_info = full_name + ' lives at ' + address + ' and is ' + str(employee_age) + ' years old.'
+print(employee_info)
+position = 'Software Engineer'
+salary = 75000
+employee_card = f"{full_name} is a {position} earning ${salary} per year."
+print(employee_card)
+employee_code = 'DEV-2026-JD-001'
+department = employee_code[0:3]
+year_joined = employee_code[4:8]
+initials = employee_code[9:11]
+last_three_digits = employee_code[-3:]
+print(f"Department: {department}, Year Joined: {year_joined}, Initials: {initials}, Last Three Digits: {last_three_digits}")
