@@ -10,6 +10,7 @@ This repository contains Python programs and mini-projects I completed while lea
 - Movie Ticket Booking Calculator
 - Travel Weather Planner
 - Apply Discount Function
+- Caesar Cipher
 
 ## Purpose
 
